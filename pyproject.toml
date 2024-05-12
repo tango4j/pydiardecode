@@ -4,8 +4,8 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "pyctcdecode"
-version = "0.6.0"
+name = "pydiardecode"
+version = "0.1.0"
 description = "CTC beam search decoder for speech recognition."
 readme = "README.md"
 requires-python = ">=3.7"
@@ -22,7 +22,7 @@ dependencies = [
 ]
 
 [project.urls]
-source = "https://github.com/kensho-technologies/pyctcdecode"
+source = "https://github.com/tango4j/pydiardecode"
 
 [project.optional-dependencies]
 dev = [
@@ -43,7 +43,13 @@ dev = [
 ]
 
 [tool.setuptools]
-packages = ["pyctcdecode"]
+packages = ["pydiardecode"]
 
 [tool.black]
 line-length = 100
+
+[tool.poetry]
+name = "pydiardecode"  # Make sure this is correct
+version = "0.1.0"
+description = "Forked from pyctcdecode"
+authors = ["Taejin Park <taejinp@nvidia.com>"]

@@ -2,4 +2,12 @@
 from setuptools import setup  # type: ignore
 
 
-setup()
+setup(
+    name='pydiardecode',  # Make sure this is correct
+    version='0.1.0',
+    description='',
+    author='Taejin Park',
+    author_email='taejinp@nvidia.com',
+    packages=['pydiardecode'],
+    install_requires=[],
+)
